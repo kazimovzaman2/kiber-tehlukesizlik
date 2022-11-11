@@ -47,11 +47,11 @@ GCP üçün: <a href="https://cloud.google.com/storage/docs/hosting-static-websi
 ## HTTPS
 CV vebsaytının təhlükəsizliyi üçün HTTPS-dən istifadə etməliyik.
 
-AWS üçin: <a href="https://aws.amazon.com/blogs/networking-and-content-delivery/amazon-s3-amazon-cloudfront-a-match-made-in-the-cloud/">Amazon CloudFront</a>
+AWS üçün: <a href="https://aws.amazon.com/blogs/networking-and-content-delivery/amazon-s3-amazon-cloudfront-a-match-made-in-the-cloud/">Amazon CloudFront</a>
 
-AZURE üçin: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-portal#map-a-custom-domain-with-https-enabled">Azure CDN</a>
+AZURE üçün: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-portal#map-a-custom-domain-with-https-enabled">Azure CDN</a>
 
-GCP üçin: <a href="https://cloud.google.com/load-balancing/docs/https">Cloud CDN</a>
+GCP üçün: <a href="https://cloud.google.com/load-balancing/docs/https">Cloud CDN</a>
 
 xidmətlərindən birini istifadə etməli olacaqsınız.
 <br><br><br><br>
@@ -60,22 +60,22 @@ xidmətlərindən birini istifadə etməli olacaqsınız.
 
 
 ## DNS
-Kendinize bir domain (alan adı) alın. 
+Özünüzə bir domain alın. 
 
-AWS için: <a href="https://aws.amazon.com/route53/">Amazon Route53</a>
+AWS üçün: <a href="https://aws.amazon.com/route53/">Amazon Route53</a>
 
-AZURE için: <a href="https://docs.microsoft.com/en-us/azure/cdn/cdn-map-content-to-custom-domain">Azure DNS</a>
+AZURE üçün: <a href="https://docs.microsoft.com/en-us/azure/cdn/cdn-map-content-to-custom-domain">Azure DNS</a>
 
-GCP için: <a href="https://cloud.google.com/domains/docs">Cloud Domains</a>
+GCP üçün: <a href="https://cloud.google.com/domains/docs">Cloud Domains</a>
 
-veya bunlar dışında herhangi bir DNS sağlayıcıyı kullanabilirsiniz. Domain almak genelde 10 dolar civarı oluyor.
+və ya bunlar əlavə herhansı bir DNS provayderi istifadə edə bilərsiz. Domain almaq ortalama 10 dolar olur.
 <br><br><br><br>
 
 
 
 
 ## Javascript
-Özgeçmiş sayfanızın bir ziyaretçi sayacı olmalı. Bunu gerçekleştirebilmek için biraz Javascript yazmanız gerekiyor. <a href="https://www.codecademy.com/learn/introduction-to-javascript">Bu siteden javascripte başlayabilirsiniz.</a>
+CV səhifənizdə ziyarətçi sayğacı olmalıdır. Bunun üçün biraz Javascript yazmalısınız. <a href="https://www.codecademy.com/learn/introduction-to-javascript">Bu saytdan javascriptə başlayabilərsiniz.</a>
 <br><br><br><br>
 
 
