@@ -68,7 +68,7 @@ AZURE üçün: <a href="https://docs.microsoft.com/en-us/azure/cdn/cdn-map-conte
 
 GCP üçün: <a href="https://cloud.google.com/domains/docs">Cloud Domains</a>
 
-və ya bunlar əlavə herhansı bir DNS provayderi istifadə edə bilərsiz. Domain almaq ortalama 10 dolar olur.
+və ya bundan əlavə hərhansı bir DNS provayderi istifadə edə bilərsiz. Domain almaq ortalama 10 dolar olur.
 <br><br><br><br>
 
 
@@ -81,23 +81,23 @@ CV səhifənizdə ziyarətçi sayğacı olmalıdır. Bunun üçün biraz Javascr
 
 
 
-## Veritabanı
-Ziyaretçi sayısını gösterebilmeniz ve güncelleyebilmeniz için bir veritabanı kullanmalısınız. 
+## Verilənlər bazası
+Ziyarətçilərin sayını göstərə və yeniləyə bilmək üçün verilənlər bazasından istifadə etməlisiniz. 
 
-AWS için: <a href="https://aws.amazon.com/dynamodb/">DynamoDB</a>
+AWS üçün: <a href="https://aws.amazon.com/dynamodb/">DynamoDB</a>
 
-AZURE için: <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/introduction">CosmosDB</a>'den <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/table/introduction">Table API</a>
+AZURE üçün: <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/introduction">CosmosDB</a>-dən <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/table/introduction">Table API</a>
 
-GCP için: <a href="https://cloud.google.com/firestore">Firestore</a>
+GCP üçün: <a href="https://cloud.google.com/firestore">Firestore</a>
 
-servislerini kullanmanızı öneririm. (Veritabanı için istek-üzerine (on-demand) fiyatlandırma seçerseniz ve veritabanınızda kullanmanız gerekenden daha fazla veri saklamazsanız veya göstermezseniz neredeyse hiç para ödemeden kullanacanksınız.)
+xidmətlərindən istifadə etməyi məsləhət görürəm.
 <br><br><br><br>
 
 
 
 
 ## API
-Direk javascript üzerinden veritabanı ile iletişim kurmayın. Bunun yerine web uygulamanızdan gelen istekleri kabul eden ve veritabanınız ile iletişime geçen bir API yaratın. Bunun için kullandığınız bulut servisinin API Geçidini ve Lambda servislerini kullanın. Yaptığımız işlemler için bu servisler ya ücretsiz ya da çok ucuz olacaktır.
+Birbaşa javascript üzərinden verilənlər bazası ilə əlaqə saxlamayın. Bunun əvəzinə veb tətbiqinizdən gələn sorğuları qəbul edən və verilənlər bazanızla əlaqə saxlayan API yaradın. Bunun üçün istifadə etdiyiniz bulud xidmətinin API Gateway və Lambda xidmətlərindən istifadə edin. Bu xidmətlər bizim əməliyyatlarımız üçün ya pulsuz, ya da çox ucuz olacaq.
 <br><br><br><br>
 
 
