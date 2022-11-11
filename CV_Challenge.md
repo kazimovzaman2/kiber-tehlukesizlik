@@ -39,7 +39,7 @@ AZURE üçün: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/sto
 
 GCP üçün: <a href="https://cloud.google.com/storage/docs/hosting-static-website">Google Cloud Storage</a>
 
-üzərinde işləməlidir. Əslində bunun üçün Netlify və Github Pages-dən istifadə daha yaxşı ola bilər. Amma hazırda cloud bildiyimizi göstərməyə çalışmalıyıq. Ona görə yuxarıdakı xidmətlərdən birini istifadə etməliyik.
+üzərində işləməlidir. Əslində bunun üçün Netlify və Github Pages-dən istifadə daha yaxşı ola bilər. Amma hazırda cloud bildiyimizi göstərməyə çalışmalıyıq. Ona görə yuxarıdakı xidmətlərdən birini istifadə etməliyik.
 <br><br><br><br>
 
 
