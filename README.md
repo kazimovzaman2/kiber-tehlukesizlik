@@ -17,14 +17,14 @@ sertifikatı olmalıdır. Bu sertifikatlar giriş səviyyəli bulud sertifikatla
 
 
 ## HTML
-Özgeçmiş belgesinin <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> ile hazırlanması gerekiyor. (Word, pdf olarak değil)
+CV-niz <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> ilə hazırlanmalıdır. (Word, pdf olarak yox)
 <br><br><br><br>
 
 
 
 
 ## CSS
-Özgeçmiş hazırlanırken <a href="https://www.w3schools.com/css/">CSS</a> ile şekillendirmeniz gerekiyor. Tasarım zevkiniz yoksa hiç mühim değil. Şekilli şukullu olmasına gerek yok. Ancak web sayfasını açtığımızda biçimlendirilmemiş html sayfası görmektense biraz biçimlendirmek daha iyi olacaktır.
+CV-nizi hazırlayarkən <a href="https://www.w3schools.com/css/">CSS</a> ilə formalaşdırmaq lazımdır. Dizayn zövqünüz olmamağı, önəm kəsb etmir. Çox gözəl dizayna ehtiyac yoxdur. Ancaq veb səhifəni açarkən sırf HTML-dən başqa bir şey görməliyik.
 <br><br><br><br>
 
 
