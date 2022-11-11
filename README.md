@@ -1,16 +1,16 @@
 <a name="top"></a>
 <h1 align="center">CV Challenge</h1>
 
-## Sertifika
-Özgeçmişinizde;
+## Sertifikat
+CV-nizdə;
 
-AWS için: <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/">AWS Cloud Practitioner</a>
+AWS üçün: <a href="https://aws.amazon.com/certification/certified-cloud-practitioner/">AWS Cloud Practitioner</a>
 
-AZURE için: <a href="https://docs.microsoft.com/en-us/learn/certifications/exams/az-900">AZ-900</a>
+AZURE üçün: <a href="https://docs.microsoft.com/en-us/learn/certifications/exams/az-900">AZ-900</a>
 
-GCP için: <a href="https://cloud.google.com/certification/cloud-digital-leader">Google Cloud Digital Leader</a> 
+GCP üçün: <a href="https://cloud.google.com/certification/cloud-digital-leader">Google Cloud Digital Leader</a> 
 
-sertifikası olması gerekir. Bu sertifikalar giriş seviyesinde cloud sertifikalarıdır. Daha ileri seviye bir sertifikanız varsa bu da kullanılabilir. Bu sınavların her birini 100 dolara online olarak alabilirsiniz.
+sertifikatı olmalıdır. Bu sertifikatlar giriş səviyyəli bulud sertifikatlarıdır. Bundan daha iləri səviyyə sertifikatınız varsa da mümkündür. Bu imtahanların hər birini 100 dollara onlayn olaraq verə bilərsiniz.
 <br><br><br><br>
 
 
