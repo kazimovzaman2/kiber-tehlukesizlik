@@ -31,7 +31,7 @@ CV-nizi hazırlayarkən <a href="https://www.w3schools.com/css/">CSS</a> ilə fo
 
 
 ## Statik veb sayt
-HTML ile yazdığınız CV-niz;
+HTML ilə yazdığınız CV-niz;
 
 AWS üçün: <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">Amazon S3 static website</a>
 
