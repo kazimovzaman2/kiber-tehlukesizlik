@@ -31,15 +31,15 @@ CV-nizi hazırlayarkən <a href="https://www.w3schools.com/css/">CSS</a> ilə fo
 
 
 ## Statik Website
-HTML ile yazmış olduğunuz özgeçmişiniz;
+HTML ile yazdığınız CV-niz;
 
-AWS için: <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">Amazon S3 statik websitesi</a>
+AWS üçün: <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">Amazon S3 statik websites</a>
 
-AZURE için: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website">Azure Storage statik site</a>
+AZURE üçün: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website">Azure Storage statik site</a>
 
-GCP için: <a href="https://cloud.google.com/storage/docs/hosting-static-website">Google Cloud Storage</a>
+GCP üçün: <a href="https://cloud.google.com/storage/docs/hosting-static-website">Google Cloud Storage</a>
 
-üzerinde çalışıyor olmalı. Aslında bunun için Netlify ve Github Pages kullanılması daha iyi olabilir. Ama şu an cloud bildiğimizi göstermeye çalışıyoruz. O yüzden üstteki servislerden birini kullanın.
+üzerinde işləməlidir. Əslində bunun için Netlify ve Github Pages-dən istifadə daha yaxşı ola bilər. Amma hazırda cloud bildiyimizi göstərməyə çalışmalıyıq. Ona görə yuxardakı servislərdən birini istifadə etməliyik.
 <br><br><br><br>
 
 
