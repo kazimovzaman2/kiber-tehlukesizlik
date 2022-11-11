@@ -104,77 +104,77 @@ Birbaşa javascript üzərinden verilənlər bazası ilə əlaqə saxlamayın. B
 
 
 ## Python
-Lambda fonksiyonu için biraz kod yazmanız gerekecek; daha fazla Javascript kullanabilirsiniz ancak şu anki amacımız için Python'u ve bulut servisinin sağladığı kütüphaneleri biraz keşfetmek daha iyi olacaktır.
+Lambda funksiyası üçün biraz kod yazmalı olacaqsıznız; daha çox Javascript istifadə edə bilərsiniz, lakin hazırkı məqsədimiz üçün Python və bulud xidmətinin təqdim etdiyi kitabxanaları bir az araşdırmaq daha yaxşı olardı.
 
-AWS için: <a href="https://boto3.amazonaws.com/v1/documentation/api/latest/index.html">boto3</a>
+AWS üçün: <a href="https://boto3.amazonaws.com/v1/documentation/api/latest/index.html">boto3</a>
 
-AZURE için: <a href="https://github.com/Azure/azure-sdk-for-python">Azure SDK</a>
+AZURE üçün: <a href="https://github.com/Azure/azure-sdk-for-python">Azure SDK</a>
 
-GCP için: <a href="https://cloud.google.com/python/docs/reference">Google Cloud Client Libraries</a>
+GCP üçün: <a href="https://cloud.google.com/python/docs/reference">Google Cloud Client Libraries</a>
 
-Buraya ucuz ve ücretsiz bir <a href="https://www.learnpython.org/">Python kursu</a> bırakıyorum. Diğer kaynaklar için [sss.lunizz.com](https://sss.lunizz.com) adresini ziyaret edebilirsiniz.
 <br><br><br><br>
 
 
 
 
-## Testler
-Python kodunuza bazı testler eklemelisiniz. Buraya iyi python testleri yazmak için bir <a href="https://realpython.com/python-testing/">kaynak</a> bırakıyorum.
+## Testlər
+Python kodunuza bəzi testlər əlavə etməlisiniz. Burada yaxşı python testləri yazmaq üçün <a href="https://realpython.com/python-testing/">mənbə</a> qoyuram.
 <br><br><br><br>
 
 
 
 
-## Altyapı olarak kod (Infrastracture as Code)
+## Infrastracture as Code
 
-API kaynaklarınızı -DynamoDB, CosmosDB, GoogleFunctions- elle bir yerlere tıklayarak ayarlamamalısınız. Bunun yerine onları;
+API resurslarınızı -DynamoDB, CosmosDB, GoogleFunctions- əl ilə harasa klikləməklə təyin etməməlisiniz. Bunun yerine onları;
 
-AWS için: <a href="https://aws.amazon.com/serverless/sam/">AWS Sunucusuz Uygulama Modeli (SAM) şablonunda</a>
+AWS üçün: <a href="https://aws.amazon.com/serverless/sam/">AWS Serversiz Tətbiq Modeli (SAM) şablonunda</a>
 
-AZURE için: <a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-infrastructure-as-code">Azure Resource Manager (ARM) şablonunda</a>
+AZURE üçün: <a href="https://docs.microsoft.com/en-us/azure/azure-functions/functions-infrastructure-as-code">Azure Resource Manager (ARM) şablonunda</a>
 
-GCP için: <a href="https://cloud.google.com/blog/topics/developers-practitioners/predictable-serverless-deployments-terraform">Terraform şablonunda</a>
+GCP üçün: <a href="https://cloud.google.com/blog/topics/developers-practitioners/predictable-serverless-deployments-terraform">Terraform şablonunda</a>
 
-belirleyin ve bulut servisinin sağladığı CLI'yi kullanarak deploy edin. Bu Infstatructure as Code veya kısaca IaC olarak geçer ve uzun zamanlı projelerde size zaman kazandırır.
+müəyyən edin və bulud xidməti tərəfindən təmin edilən CLI-dən istifadə edərək yerləşdirin. Bu, Kod kimi İnfrastruktur və ya qısaca IaC kimi tanınır və uzunmüddətli layihələrdə vaxtınıza qənaət edir.
 <br><br><br><br>
 
 
 
 
-## Kaynak Kontrolü
-Backend API'ınızı veya sitenizin frontend kodunu her değiştirdiğinizde tekrar elle deploy etmek istemezsiniz. Kodunuza yaptığınız her değişiklikte otomatik olarak güncellenmesini istersiniz. (Bu <a href="https://help.github.com/en/actions/building-and-testing-code-with-continuous-integration/about-continuous-integration">devamlı integrasyon ve deployment</a> yani kısaca CI/CD olarak geçer)
+## Mənbə Nəzarəti
+Hər dəfə backend API-ni və ya saytınızın frontend kodunu dəyişdirdiyiniz zaman əl ilə yenidən yerləşdirmək istəməzsiniz. Kodunuza etdiyiniz hər dəyişikliklə onun avtomatik yenilənməsini istəyərsiniz. (Bu <a href="https://help.github.com/en/actions/building-and-testing-code-with-continuous-integration/about-continuous-integration">davamlı inteqrasiya və deployment</a> yəni qısaca CI/CD olaraq bilinir)
 <br><br><br><br>
 
 
 
 
 ## CI/CD (Backend)
-Github Actions'u Serverless Application Model template veya python kodunuzu güncellemek için ayarlayın, siz kodunuzu güncellediğinizde Python testleriniz çalışacak. Eğer testten geçerse, Uygulamanız paketlenecek ve bulut servisinin sağladığı uygulama üzerinde yayınlanacak.
+Github Actions'ı Serverless Application Model template və ya python kodunuzu güncəlləmək üçün təyin edin, siz kodunuzu güncəllədiyinizde Python testləri işləyəcək. Testdən keçərsə, Tətbiqiniz paketlənəcək və bulud xidmətinin təqdim etdiyi proqramda dərc olunacaq.
 <br><br><br><br>
 
 
 
 
 ## CI/CD (Frontend)
-Frontend kodu için bir Github reposu daha açın ve bu repo için de bir Github Actions ayarlayın, Değişiklik bulut servisinin sağladığı uygulama üzerinde otomatik olarak güncellenecek. Önemli Not: ASLA kimlik bilgilerinizi kaynak kontrolüne eklemeyin! Art niyetki kişiler bu bilgileri size karşı kullanabilir.
+Frontend kodu üçün başqa Github repo açın və bu repo üçün də Github Actions təyin edin, dəyişiklik bulud xidməti ilə təmin edilən proqramda avtomatik yenilənəcək. Vacib qeyd: HEÇ VAXT etimadnamənizi mənbə nəzarətinə əlavə etməyin! Pis fikirli insanlar bu məlumatı sizə qarşı istifadə edə bilər.
 <br><br><br><br>
 
 
 
 
 ## Blog Post
-Son olarak, bir blog yazısı açıp bu proje üstünde çalışırken öğrendiğiniz şeyleri yazıp özgeçmişinizin içine ekleyebilirsiniz. Eğer kendi blogunuz yoksa bu yazıyı <a href="https://dev.to">Dev.to</a> üzerinden yayınlayabilirsiniz.
+Nəhayət, bloq yazısı aça və bu layihə üzərində işləyərkən öyrəndiklərinizi yazıb CV-yə daxil edə bilərsiniz. Eğer kendi blogunuz yoksa bu yazıyı  Öz bloqunuz yoxdursa, bu məqaləni <a href="https://dev.to">Dev.to</a> saytında dərc edə bilərsiniz.
 <br><br><br><br>
 
 
 
 
-## Daha fazlası için
+## Daha çox məlumat üçün
 Stratejiler, araçlar ve sizin cloud alanında iş bulmanızı sağlayabilecek daha fazla challenge için <a href="https://forrestbrazeal.gumroad.com/l/cloud-resume-challenge-book">the Cloud Resume Challenge book</a>'a bakabilirsiniz.
+Sizi buludda iş əldə edə biləcək strategiyalar, alətlər və daha çox çağırışlar üçün <a href="https://forrestbrazeal.gumroad.com/l/cloud-resume-challenge-book">the Cloud Resume Challenge book</a>-a baxın.
 <br><br><br><br>
 
 
 
 
 ## Orijinal Kaynak
-[Kaynak](https://cloudresumechallenge.dev/docs/the-challenge/)
+[Kaynak](https://github.com/LuNiZz/siber-guvenlik-sss/blob/master/Belgeler/Dokumanlar/CV_Challenge.md)
