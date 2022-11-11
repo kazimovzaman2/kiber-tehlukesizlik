@@ -30,30 +30,30 @@ CV-nizi hazırlayarkən <a href="https://www.w3schools.com/css/">CSS</a> ilə fo
 
 
 
-## Statik Website
+## Statik veb sayt
 HTML ile yazdığınız CV-niz;
 
-AWS üçün: <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">Amazon S3 statik websites</a>
+AWS üçün: <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html">Amazon S3 static website</a>
 
-AZURE üçün: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website">Azure Storage statik site</a>
+AZURE üçün: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website">Azure Storage static site</a>
 
 GCP üçün: <a href="https://cloud.google.com/storage/docs/hosting-static-website">Google Cloud Storage</a>
 
-üzerinde işləməlidir. Əslində bunun için Netlify ve Github Pages-dən istifadə daha yaxşı ola bilər. Amma hazırda cloud bildiyimizi göstərməyə çalışmalıyıq. Ona görə yuxardakı servislərdən birini istifadə etməliyik.
+üzerinde işləməlidir. Əslində bunun için Netlify ve Github Pages-dən istifadə daha yaxşı ola bilər. Amma hazırda cloud bildiyimizi göstərməyə çalışmalıyıq. Ona görə yuxardakı xidmətlərindən birini istifadə etməliyik.
 <br><br><br><br>
 
 
 
 ## HTTPS
-Özgeçmiş websitesinin güvenliği için HTTPS kullanmalıyız.
+CV vebsaytının təhlükəsizliyi üçün HTTPS-dən istifadə etməliyik.
 
-AWS için: <a href="https://aws.amazon.com/blogs/networking-and-content-delivery/amazon-s3-amazon-cloudfront-a-match-made-in-the-cloud/">Amazon CloudFront</a>
+AWS üçin: <a href="https://aws.amazon.com/blogs/networking-and-content-delivery/amazon-s3-amazon-cloudfront-a-match-made-in-the-cloud/">Amazon CloudFront</a>
 
-AZURE için: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-portal#map-a-custom-domain-with-https-enabled">Azure CDN</a>
+AZURE üçin: <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-portal#map-a-custom-domain-with-https-enabled">Azure CDN</a>
 
-GCP için: <a href="https://cloud.google.com/load-balancing/docs/https">Cloud CDN</a>
+GCP üçin: <a href="https://cloud.google.com/load-balancing/docs/https">Cloud CDN</a>
 
-servislerinden birini kullanmanız gerekecek.
+xidmətlərindən birini istifadə etməli olacaqsınız.
 <br><br><br><br>
 
 
