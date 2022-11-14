@@ -176,5 +176,5 @@ Sizi buludda iş əldə edə biləcək strategiyalar, alətlər və daha çox ç
 
 
 
-## Orijinal Kaynak
-[Kaynak](https://github.com/LuNiZz/siber-guvenlik-sss/blob/master/Belgeler/Dokumanlar/CV_Challenge.md)
+## Orijinal Mənbə
+[Mənbə](https://github.com/LuNiZz/siber-guvenlik-sss/blob/master/Belgeler/Dokumanlar/CV_Challenge.md)
