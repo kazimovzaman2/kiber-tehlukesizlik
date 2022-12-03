@@ -1,6 +1,6 @@
 # Port Scanner
 
-## A basic [Port Scanner](https://vinitshahdeo.github.io/PortScanner/) :mag_right: using Python!
+## A basic [Port Scanner](port_scanner.py) :mag_right: using Python!
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/PortScanner?logo=github)](https://github.com/vinitshahdeo/PortScanner/) [![GitHub last commit](https://img.shields.io/github/last-commit/vinitshahdeo/PortScanner?logo=git&logoColor=white)](https://github.com/vinitshahdeo/PortScanner/commits/master)
 
