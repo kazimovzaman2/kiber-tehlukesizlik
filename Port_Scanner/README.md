@@ -2,7 +2,6 @@
 
 ## A basic [Port Scanner](port_scanner.py) :mag_right: using Python!
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/PortScanner?logo=github)](https://github.com/vinitshahdeo/PortScanner/) [![GitHub last commit](https://img.shields.io/github/last-commit/vinitshahdeo/PortScanner?logo=git&logoColor=white)](https://github.com/vinitshahdeo/PortScanner/commits/master)
 
 > ### **Note: Please follow [this link](https://github.com/kazimovzaman2).
 
